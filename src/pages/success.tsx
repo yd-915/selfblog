@@ -1,7 +1,7 @@
 import { withPageAuthRequired } from '@auth0/nextjs-auth0'
 import { ReactElement } from 'react'
 
-import { AppLayout } from '@/components'
+import { AppLayout } from '../components'
 import { getAppProps } from '@/core/utils'
 import { AppProps } from '../core/models'
 
